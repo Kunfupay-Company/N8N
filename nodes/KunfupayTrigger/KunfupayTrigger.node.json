@@ -1,0 +1,18 @@
+{
+	"node": "n8n-nodes-kunfupay",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Finance & Accounting", "Sales"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://github.com/Kunfupay-Company/N8N#kunfupay-webhook"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://github.com/Kunfupay-Company/N8N#kunfupay-trigger"
+			}
+		]
+	}
+}

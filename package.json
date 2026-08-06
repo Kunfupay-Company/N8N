@@ -1,0 +1,65 @@
+{
+	"name": "n8n-nodes-kunfupay",
+	"version": "0.1.0",
+	"description": "Official n8n nodes for Kunfupay hosted checkouts and signed payment webhooks",
+	"license": "MIT",
+	"homepage": "https://github.com/Kunfupay-Company/N8N#readme",
+	"keywords": [
+		"n8n-community-node-package",
+		"n8n",
+		"kunfupay",
+		"payments",
+		"checkout",
+		"webhooks"
+	],
+	"author": {
+		"name": "Kunfupay Company",
+		"email": "iker.rios@kunfupay.com"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Kunfupay-Company/N8N.git"
+	},
+	"engines": {
+		"node": ">=20.19"
+	},
+	"packageManager": "pnpm@10.14.0",
+	"scripts": {
+		"build": "n8n-node build",
+		"build:watch": "tsc --watch",
+		"dev": "n8n-node dev",
+		"lint": "n8n-node lint",
+		"lint:fix": "n8n-node lint --fix",
+		"release": "n8n-node release",
+		"test": "vitest run",
+		"test:watch": "vitest",
+		"prepublishOnly": "n8n-node prerelease"
+	},
+	"files": [
+		"dist"
+	],
+	"n8n": {
+		"n8nNodesApiVersion": 1,
+		"strict": true,
+		"credentials": [
+			"dist/credentials/KunfupayApi.credentials.js",
+			"dist/credentials/KunfupayWebhookApi.credentials.js"
+		],
+		"nodes": [
+			"dist/nodes/Kunfupay/Kunfupay.node.js",
+			"dist/nodes/KunfupayTrigger/KunfupayTrigger.node.js"
+		]
+	},
+	"devDependencies": {
+		"@n8n/node-cli": "^0.43.1",
+		"@types/node": "^22.17.0",
+		"eslint": "9.32.0",
+		"prettier": "3.6.2",
+		"release-it": "^19.0.4",
+		"typescript": "5.9.2",
+		"vitest": "^3.2.4"
+	},
+	"peerDependencies": {
+		"n8n-workflow": "*"
+	}
+}

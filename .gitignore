@@ -1,0 +1,19 @@
+dist
+node_modules
+.DS_Store
+*.tsbuildinfo
+coverage
+
+# Environment variables and local credentials
+.env
+.env.*
+!.env.example
+
+# Local n8n development data
+.n8n
+.n8n-node-cli
+
+# Logs and generated packages
+*.log
+*.tgz
+.pnpm-store
