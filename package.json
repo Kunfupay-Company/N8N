@@ -20,6 +20,13 @@
 		"type": "git",
 		"url": "git+https://github.com/Kunfupay-Company/N8N.git"
 	},
+	"bugs": {
+		"url": "https://github.com/Kunfupay-Company/N8N/issues"
+	},
+	"publishConfig": {
+		"access": "public",
+		"provenance": true
+	},
 	"engines": {
 		"node": ">=20.19"
 	},
