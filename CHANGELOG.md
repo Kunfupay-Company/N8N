@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.2
+
+- Remove unsupported AI tool metadata from the Kunfupay Trigger node.
+
 ## 0.1.1
 
 - Publish the package through GitHub Actions with npm provenance.
