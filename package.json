@@ -1,6 +1,6 @@
 {
 	"name": "n8n-nodes-kunfupay",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "Official n8n nodes for Kunfupay hosted checkouts and signed payment webhooks",
 	"license": "MIT",
 	"homepage": "https://github.com/Kunfupay-Company/N8N#readme",
