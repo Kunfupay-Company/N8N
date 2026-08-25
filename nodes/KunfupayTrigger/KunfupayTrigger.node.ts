@@ -64,7 +64,6 @@ export class KunfupayTrigger implements INodeType {
 		defaults: {
 			name: 'Kunfupay Trigger',
 		},
-		usableAsTool: true,
 		inputs: [],
 		outputs: [NodeConnectionTypes.Main],
 		credentials: [
